@@ -12,4 +12,7 @@ Route::get('/about', function () {
     echo "Sobre o sistema";
 });
 
+
 Route::get('/main/{value}', [MainController::class, 'index']);
+
+
