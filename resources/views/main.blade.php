@@ -9,5 +9,7 @@
 </head>
 <body>
     <h1>Welcome to the main page</h1>
+    <hr>
+    <h3>O valor é: <?= $value ?></h3>
 </body>
 </html>
